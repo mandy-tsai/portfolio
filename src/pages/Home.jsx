@@ -71,7 +71,7 @@ export default function Home() {
         >
           <div>
             <p className="label mb-1">Email</p>
-            <a href="mailto:mandytsaiyaching@gmail.com" className="text-sm link-underline">mandytsaiyaching@gmail.com</a>
+            <Link to="/contact" className="text-sm link-underline">mandytsaiyaching@gmail.com</Link>
           </div>
           <p className="text-sm text-muted max-w-xs text-right hidden md:block whitespace-pre-line">
             {t('home.tagline')}

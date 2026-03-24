@@ -12,7 +12,7 @@ export default function Footer() {
           <p className="text-xs text-muted">&copy; {new Date().getFullYear()}</p>
           <p className="text-sm">
             {t('footer.hello')}<br />
-            <a href="mailto:mandytsaiyaching@gmail.com" className="link-underline text-fg">mandytsaiyaching@gmail.com</a>
+            <Link to="/contact" className="link-underline text-fg">mandytsaiyaching@gmail.com</Link>
           </p>
           <button onClick={scrollToTop} className="text-xs text-muted hover:text-fg transition-colors mt-4 block">{t('footer.backToTop')}</button>
         </div>

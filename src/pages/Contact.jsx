@@ -1,16 +1,32 @@
 import { motion } from 'framer-motion';
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import PageTransition from '../components/PageTransition';
 import { useLanguage } from '../i18n/LanguageContext';
+
+function generateCaptcha() {
+  const a = Math.floor(Math.random() * 10) + 1;
+  const b = Math.floor(Math.random() * 10) + 1;
+  return { question: `${a} + ${b} = ?`, answer: a + b };
+}
 
 export default function Contact() {
   const { t } = useLanguage();
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
   const [submitted, setSubmitted] = useState(false);
   const [sending, setSending] = useState(false);
+  const [captcha, setCaptcha] = useState(() => generateCaptcha());
+  const [captchaInput, setCaptchaInput] = useState('');
+  const [captchaError, setCaptchaError] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if (parseInt(captchaInput, 10) !== captcha.answer) {
+      setCaptchaError(true);
+      setCaptcha(generateCaptcha());
+      setCaptchaInput('');
+      return;
+    }
+    setCaptchaError(false);
     setSending(true);
     try {
       const res = await fetch('https://api.web3forms.com/submit', {
@@ -26,7 +42,6 @@ export default function Contact() {
       });
       if (res.ok) setSubmitted(true);
     } catch (_) {
-      // fallback: still show success
       setSubmitted(true);
     }
     setSending(false);
@@ -68,6 +83,21 @@ export default function Contact() {
                 <div>
                   <label className="label block mb-3">{t('contact.messageLabel')}</label>
                   <textarea required rows={5} value={formData.message} onChange={(e) => setFormData({ ...formData, message: e.target.value })} className="w-full bg-transparent border-b border-border py-3 text-fg outline-none focus:border-fg transition-colors resize-none placeholder:text-muted/40 text-sm" placeholder={t('contact.messagePlaceholder')} />
+                </div>
+                <div>
+                  <label className="label block mb-3">{t('contact.captchaLabel') || 'CAPTCHA'}</label>
+                  <div className="flex items-center gap-4">
+                    <span className="text-base font-medium select-none">{captcha.question}</span>
+                    <input
+                      type="text"
+                      required
+                      value={captchaInput}
+                      onChange={(e) => { setCaptchaInput(e.target.value); setCaptchaError(false); }}
+                      className={`w-24 bg-transparent border-b py-3 text-fg outline-none transition-colors text-sm ${captchaError ? 'border-red-500' : 'border-border focus:border-fg'}`}
+                      placeholder={t('contact.captchaPlaceholder') || '?'}
+                    />
+                  </div>
+                  {captchaError && <p className="text-red-500 text-xs mt-2">{t('contact.captchaError') || 'Incorrect, please try again.'}</p>}
                 </div>
                 <button type="submit" disabled={sending} className="font-display font-medium text-sm uppercase tracking-widest px-10 py-4 transition-colors text-white hover:opacity-80 w-full md:w-auto disabled:opacity-50" style={{ backgroundColor: 'rgb(20, 0, 237)' }}>{sending ? '...' : t('contact.submit')}</button>
               </form>

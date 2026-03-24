@@ -28,7 +28,7 @@ export default function About() {
             <div>
               <p className="text-muted leading-relaxed mb-4">
                 {t('about.bio2')}{' '}
-                <a href="mailto:mandytsaiyaching@gmail.com" className="text-fg link-underline">mandytsaiyaching@gmail.com</a>
+                <Link to="/contact" className="text-fg link-underline">mandytsaiyaching@gmail.com</Link>
                 {t('about.bio2End')}
               </p>
               <Link to="/contact" className="text-sm font-display font-medium hover:text-muted transition-colors">{t('about.getInTouch')}</Link>
