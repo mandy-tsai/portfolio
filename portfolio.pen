@@ -1,0 +1,1482 @@
+{
+  "version": "2.6",
+  "children": [
+    {
+      "type": "frame",
+      "id": "bq31w",
+      "x": -28,
+      "y": -93,
+      "name": "Dessert Gift Brand Landing",
+      "width": 1440,
+      "fill": "#F7F1E8",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "m8JNp",
+          "name": "Header",
+          "width": "fill_container",
+          "fill": "#F7F1E8",
+          "gap": 24,
+          "padding": [
+            24,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "3EmXx",
+              "name": "logo",
+              "fill": "#1E1A17",
+              "content": "郭麗君 GuLiGing",
+              "fontFamily": "Shippori Mincho",
+              "fontSize": 28,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "KNd0o",
+              "name": "nav",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "0JlTa",
+                  "name": "nav1",
+                  "fill": "#1E1A17",
+                  "content": "禮盒系列",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "s39bR",
+                  "name": "nav2",
+                  "fill": "#1E1A17",
+                  "content": "訂購流程",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "DqTIK",
+                  "name": "nav3",
+                  "fill": "#1E1A17",
+                  "content": "寵物友善",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Jq7Jw",
+              "name": "Spacer",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "gvDsl",
+              "name": "Line CTA",
+              "fill": "#1E1A17",
+              "cornerRadius": 999,
+              "padding": [
+                12,
+                20
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "yPT4o",
+                  "name": "ctaText",
+                  "fill": "#F7F1E8",
+                  "content": "Line@ 立即下單",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "pjpY5",
+          "name": "Hero",
+          "width": "fill_container",
+          "fill": "#F7F1E8",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": 80,
+          "children": [
+            {
+              "type": "frame",
+              "id": "nHFsf",
+              "name": "badge",
+              "cornerRadius": 999,
+              "padding": [
+                6,
+                12
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "HLy6h",
+                  "name": "badgeText",
+                  "fill": "#7C6F65",
+                  "content": "PET-FRIENDLY GIFTING",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "uE8yE",
+              "name": "heroRow",
+              "width": "fill_container",
+              "gap": 48,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "7K8Pa",
+                  "name": "heroLeft",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "DEkVd",
+                      "name": "heroTitle",
+                      "fill": "#1E1A17",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "把溫柔包進禮盒，送給你與毛孩的日常",
+                      "lineHeight": 1.1,
+                      "fontFamily": "Shippori Mincho",
+                      "fontSize": 56,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "AQg2o",
+                      "name": "heroSub",
+                      "fill": "#7C6F65",
+                      "content": "費南雪、司康、布列塔尼的日系奶油香。全程低負擔配方，友善人與毛孩共度的儀式感。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "F4OVP",
+                      "name": "heroCtas",
+                      "gap": 16,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "FgEsj",
+                          "name": "heroPrimary",
+                          "fill": "#C77A4B",
+                          "cornerRadius": 999,
+                          "padding": [
+                            14,
+                            24
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "zezeQ",
+                              "name": "heroPrimaryText",
+                              "fill": "#FFFFFF",
+                              "content": "加入 Line@ 下單",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "Mwa5K",
+                          "name": "heroSecondary",
+                          "fill": "#1E1A17",
+                          "content": "查看禮盒規格",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "ndjCl",
+                      "name": "heroTrust",
+                      "fill": "#9B8C80",
+                      "content": "每週小量現烤 · 可客製祝福小卡 · 冷藏宅配",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "7ojP7",
+                  "name": "Hero Image",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "joanacabreu",
+                    "link": "https://unsplash.com/@joanacabreu",
+                    "author": "Joana Abreu"
+                  },
+                  "width": 520,
+                  "height": 420,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1683803163719-af4f172d9408?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk0ODE2NTd8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 24,
+                  "layout": "none"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "aPQ23",
+          "name": "Benefits",
+          "width": "fill_container",
+          "fill": "#F7F1E8",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            60,
+            80
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "SBI13",
+              "name": "benefitsLabel",
+              "fill": "#9B8C80",
+              "content": "品牌優勢",
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 12,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "6mvUD",
+              "name": "benefitsTitle",
+              "fill": "#1E1A17",
+              "content": "為你保留的三種溫柔",
+              "fontFamily": "Shippori Mincho",
+              "fontSize": 36,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "ObARQ",
+              "name": "benefitsRow",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "E2M4a",
+                  "name": "Benefit 1",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "EWaDq",
+                      "name": "card1Tag",
+                      "fill": "#C77A4B",
+                      "content": "低負擔配方",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "LEeFi",
+                      "name": "card1Title",
+                      "fill": "#1E1A17",
+                      "content": "奶油香氣更純粹",
+                      "fontFamily": "Shippori Mincho",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "2Yvyd",
+                      "name": "card1Body",
+                      "fill": "#7C6F65",
+                      "content": "降低糖與人工添加，保留食材香氣與口感層次。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "k8A29",
+                  "name": "Benefit 2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "i52Ld",
+                      "name": "card2Tag",
+                      "fill": "#4E6A5A",
+                      "content": "日系細工",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "FktFl",
+                      "name": "card2Title",
+                      "fill": "#1E1A17",
+                      "content": "外酥內柔的層次",
+                      "fontFamily": "Shippori Mincho",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xD4lt",
+                      "name": "card2Body",
+                      "fill": "#7C6F65",
+                      "content": "精準烘焙時間與溫度，讓費南雪與司康有輕盈口感。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "dyiec",
+                  "name": "Benefit 3",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "mNeo4",
+                      "name": "card3Tag",
+                      "fill": "#C9A16A",
+                      "content": "寵物友善",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "ufH34",
+                      "name": "card3Title",
+                      "fill": "#1E1A17",
+                      "content": "與毛孩共享儀式感",
+                      "fontFamily": "Shippori Mincho",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "pcNn6",
+                      "name": "card3Body",
+                      "fill": "#7C6F65",
+                      "content": "建議搭配寵物可食小點，禮盒可加購貼心小卡。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "cXvJf",
+          "name": "Products",
+          "width": "fill_container",
+          "fill": "#F7F1E8",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            60,
+            80
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "vQa04",
+              "name": "productsLabel",
+              "fill": "#9B8C80",
+              "content": "禮盒主角",
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 12,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "w2Lxs",
+              "name": "productsTitle",
+              "fill": "#1E1A17",
+              "content": "費南雪・司康・布列塔尼",
+              "fontFamily": "Shippori Mincho",
+              "fontSize": 36,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "9ZQ9u",
+              "name": "productsRow",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "dIDka",
+                  "name": "Product Image",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "hyue",
+                    "link": "https://unsplash.com/@hyue",
+                    "author": "Luna Hu"
+                  },
+                  "width": 620,
+                  "height": "fill_container",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1638518937075-f01563cab100?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk0ODE3MTR8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 24,
+                  "layout": "none"
+                },
+                {
+                  "type": "frame",
+                  "id": "lNTPX",
+                  "name": "productsCol",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "6c2q3",
+                      "name": "Financier Card",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 20,
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "l8ADB",
+                          "name": "prodCard1Title",
+                          "fill": "#1E1A17",
+                          "content": "費南雪｜外酥內濕",
+                          "fontFamily": "Shippori Mincho",
+                          "fontSize": 22,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "PqbQy",
+                          "name": "prodCard1Body",
+                          "fill": "#7C6F65",
+                          "content": "杏仁與焦化奶油香，適合搭配無糖花草茶。",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "fmiI8",
+                          "name": "prodCard1Meta",
+                          "fill": "#9B8C80",
+                          "content": "6入 / 12入 兩種規格",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "wOLR7",
+                      "name": "Scone Card",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 20,
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "opMBG",
+                          "name": "prodCard2Title",
+                          "fill": "#1E1A17",
+                          "content": "司康｜柔潤輕盈",
+                          "fontFamily": "Shippori Mincho",
+                          "fontSize": 22,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "kt7OJ",
+                          "name": "prodCard2Body",
+                          "fill": "#7C6F65",
+                          "content": "低糖配方與細緻口感，適合人與毛孩分享。",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "juXw0",
+                          "name": "prodCard2Meta",
+                          "fill": "#9B8C80",
+                          "content": "附贈手寫祝福小卡",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "WScPo",
+                      "name": "Breton Card",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 20,
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Skkw9",
+                          "name": "prodCard3Title",
+                          "fill": "#1E1A17",
+                          "content": "布列塔尼｜酥香濃郁",
+                          "fontFamily": "Shippori Mincho",
+                          "fontSize": 22,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "M5lpW",
+                          "name": "prodCard3Body",
+                          "fill": "#7C6F65",
+                          "content": "海鹽與奶油的厚實層次，適合節慶與重要時刻。",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "oGkxz",
+                          "name": "prodCard3Meta",
+                          "fill": "#9B8C80",
+                          "content": "可選單品或混合禮盒",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "F3j2l",
+          "name": "Pet Friendly",
+          "width": "fill_container",
+          "fill": "#EFE6DA",
+          "gap": 40,
+          "padding": [
+            60,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "46Yor",
+              "name": "Pet Image",
+              "metadata": {
+                "type": "unsplash",
+                "username": "hdbernd",
+                "link": "https://unsplash.com/@hdbernd",
+                "author": "Bernd 📷 Dittrich"
+              },
+              "width": 480,
+              "height": 320,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1717001393444-881640eea475?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk0ODE3MzF8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "cornerRadius": 24,
+              "layout": "none"
+            },
+            {
+              "type": "frame",
+              "id": "tk4KI",
+              "name": "petContent",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "MOuuy",
+                  "name": "petLabel",
+                  "fill": "#9B8C80",
+                  "content": "PET FRIENDLY",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "vGZmB",
+                  "name": "petTitle",
+                  "fill": "#1E1A17",
+                  "content": "人與毛孩都能安心的下午茶",
+                  "fontFamily": "Shippori Mincho",
+                  "fontSize": 32,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "VPE88",
+                  "name": "petBody",
+                  "fill": "#7C6F65",
+                  "content": "我們保留低糖、少添加的原則，搭配可分食的搭配建議，讓你放心分享。",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "X13dM",
+                  "name": "petList",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "M4arH",
+                      "name": "petItem1",
+                      "fill": "#7C6F65",
+                      "content": "• 提供毛孩可食建議清單",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "UIEgH",
+                      "name": "petItem2",
+                      "fill": "#7C6F65",
+                      "content": "• 可加購寵物圖樣緞帶",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "QnBZQ",
+                      "name": "petItem3",
+                      "fill": "#7C6F65",
+                      "content": "• 小量現烤，保存期短更安心",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ZZOGs",
+          "name": "How It Works",
+          "width": "fill_container",
+          "fill": "#F7F1E8",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            60,
+            80
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "Wo4Eb",
+              "name": "howLabel",
+              "fill": "#9B8C80",
+              "content": "訂購流程",
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 12,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "1ZkOP",
+              "name": "howTitle",
+              "fill": "#1E1A17",
+              "content": "三步驟把禮盒送到你手上",
+              "fontFamily": "Shippori Mincho",
+              "fontSize": 34,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "xv2A2",
+              "name": "howRow",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "TBHAV",
+                  "name": "Step 1",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 18,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "t1bCW",
+                      "name": "step1Badge",
+                      "fill": "#1E1A17",
+                      "cornerRadius": 999,
+                      "padding": [
+                        6,
+                        10
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "DftNL",
+                          "name": "step1BadgeText",
+                          "fill": "#F7F1E8",
+                          "content": "STEP 01",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 11,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "aCJyK",
+                      "name": "step1Title",
+                      "fill": "#1E1A17",
+                      "content": "加入 Line@",
+                      "fontFamily": "Shippori Mincho",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "P2BXg",
+                      "name": "step1Body",
+                      "fill": "#7C6F65",
+                      "content": "選擇禮盒款式與到貨日期。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "vPKEy",
+                  "name": "Step 2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 18,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "wmwby",
+                      "name": "step2Badge",
+                      "fill": "#1E1A17",
+                      "cornerRadius": 999,
+                      "padding": [
+                        6,
+                        10
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ocS9O",
+                          "name": "step2BadgeText",
+                          "fill": "#F7F1E8",
+                          "content": "STEP 02",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 11,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "tRuJ9",
+                      "name": "step2Title",
+                      "fill": "#1E1A17",
+                      "content": "客製祝福小卡",
+                      "fontFamily": "Shippori Mincho",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "WKV7R",
+                      "name": "step2Body",
+                      "fill": "#7C6F65",
+                      "content": "留下短句或收禮人暱稱。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "SmW6N",
+                  "name": "Step 3",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 18,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "WxSH5",
+                      "name": "step3Badge",
+                      "fill": "#1E1A17",
+                      "cornerRadius": 999,
+                      "padding": [
+                        6,
+                        10
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "5YUcW",
+                          "name": "step3BadgeText",
+                          "fill": "#F7F1E8",
+                          "content": "STEP 03",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 11,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "UeReb",
+                      "name": "step3Title",
+                      "fill": "#1E1A17",
+                      "content": "冷藏宅配",
+                      "fontFamily": "Shippori Mincho",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Lj0Qv",
+                      "name": "step3Body",
+                      "fill": "#7C6F65",
+                      "content": "指定時段送達，開箱就有香氣。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Xd5j9",
+          "name": "Social Proof",
+          "width": "fill_container",
+          "fill": "#F7F1E8",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            60,
+            80
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "7gtJU",
+              "name": "socialLabel",
+              "fill": "#9B8C80",
+              "content": "口碑與信任",
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 12,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "Eum51",
+              "name": "socialTitle",
+              "fill": "#1E1A17",
+              "content": "被溫柔選中的禮盒",
+              "fontFamily": "Shippori Mincho",
+              "fontSize": 34,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "gGnlO",
+              "name": "statRow",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "mCrBn",
+                  "name": "stat1",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 18,
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "usfd3",
+                      "name": "stat1Num",
+                      "fill": "#1E1A17",
+                      "content": "96%",
+                      "fontFamily": "Shippori Mincho",
+                      "fontSize": 28,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "JJwdy",
+                      "name": "stat1Label",
+                      "fill": "#7C6F65",
+                      "content": "回購率",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "oyzOv",
+                  "name": "stat2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 18,
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "wRwNA",
+                      "name": "stat2Num",
+                      "fill": "#1E1A17",
+                      "content": "2,300+",
+                      "fontFamily": "Shippori Mincho",
+                      "fontSize": 28,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "f6m4W",
+                      "name": "stat2Label",
+                      "fill": "#7C6F65",
+                      "content": "送禮訂單",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "5aNgQ",
+                  "name": "stat3",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 18,
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "2lOVa",
+                      "name": "stat3Num",
+                      "fill": "#1E1A17",
+                      "content": "4.9/5",
+                      "fontFamily": "Shippori Mincho",
+                      "fontSize": 28,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Xbq4K",
+                      "name": "stat3Label",
+                      "fill": "#7C6F65",
+                      "content": "評分",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "mm3PM",
+              "name": "quoteRow",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "JNigO",
+                  "name": "quote1",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "0bFlQ",
+                      "name": "quote1Text",
+                      "fill": "#1E1A17",
+                      "content": "「收到禮盒當下整個被療癒，香氣非常細緻。」",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Shippori Mincho",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Pbk2C",
+                      "name": "quote1Meta",
+                      "fill": "#9B8C80",
+                      "content": "— 台北 / 生日送禮",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "vMUpV",
+                  "name": "quote2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "yd0fV",
+                      "name": "quote2Text",
+                      "fill": "#1E1A17",
+                      "content": "「毛孩也能一起吃小點心，這種細節太貼心。」",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Shippori Mincho",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "VPH4g",
+                      "name": "quote2Meta",
+                      "fill": "#9B8C80",
+                      "content": "— 新竹 / 寵物家庭",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Qh516",
+          "name": "Final CTA",
+          "width": "fill_container",
+          "fill": "#4E6A5A",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": 80,
+          "children": [
+            {
+              "type": "text",
+              "id": "qMTex",
+              "name": "ctaTitle",
+              "fill": "#F7F1E8",
+              "content": "把溫柔送出去，就從這一盒開始",
+              "fontFamily": "Shippori Mincho",
+              "fontSize": 36,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "0Zvtr",
+              "name": "ctaSub",
+              "fill": "#E8DED2",
+              "content": "加入 Line@ 選擇款式與到貨日期，我們替你完成最後一哩。",
+              "lineHeight": 1.6,
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "Utams",
+              "name": "ctaButton",
+              "fill": "#C77A4B",
+              "cornerRadius": 999,
+              "padding": [
+                14,
+                26
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "xfP6h",
+                  "name": "ctaButtonText",
+                  "fill": "#FFFFFF",
+                  "content": "Line@ 立即下單",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "fLx9J",
+              "name": "ctaNote",
+              "fill": "#D6CABB",
+              "content": "每週限量烘焙｜週一至週五出貨",
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "nBRaM",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "#1E1A17",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            60,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "cjhYq",
+              "name": "footerTop",
+              "width": "fill_container",
+              "gap": 40,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "HMy6P",
+                  "name": "footerBrand",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "asXmN",
+                      "name": "footerLogo",
+                      "fill": "#F7F1E8",
+                      "content": "菓苑 KAOEN",
+                      "fontFamily": "Shippori Mincho",
+                      "fontSize": 24,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "8dopJ",
+                      "name": "footerTag",
+                      "fill": "#B7A99D",
+                      "content": "Japanese dessert gifts, crafted for gentle moments.",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "FN4q2",
+                  "name": "footerCols",
+                  "width": "fill_container",
+                  "gap": 48,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "BPj2E",
+                      "name": "footerCol1",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "0hIDd",
+                          "name": "footerCol1Title",
+                          "fill": "#F7F1E8",
+                          "content": "Product",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 12,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "VRRi5",
+                          "name": "footerCol1Item1",
+                          "fill": "#B7A99D",
+                          "content": "禮盒系列",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "XE54l",
+                          "name": "footerCol1Item2",
+                          "fill": "#B7A99D",
+                          "content": "客製小卡",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "JEeJB",
+                      "name": "footerCol2",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "W1ZdP",
+                          "name": "footerCol2Title",
+                          "fill": "#F7F1E8",
+                          "content": "Company",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 12,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "AWzK7",
+                          "name": "footerCol2Item1",
+                          "fill": "#B7A99D",
+                          "content": "品牌故事",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "yTq66",
+                          "name": "footerCol2Item2",
+                          "fill": "#B7A99D",
+                          "content": "聯絡我們",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "npMLO",
+                      "name": "footerCol3",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "yJOVI",
+                          "name": "footerCol3Title",
+                          "fill": "#F7F1E8",
+                          "content": "Legal",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 12,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "ulfQ3",
+                          "name": "footerCol3Item1",
+                          "fill": "#B7A99D",
+                          "content": "配送與保存",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "dlvSv",
+                          "name": "footerCol3Item2",
+                          "fill": "#B7A99D",
+                          "content": "隱私政策",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Zk9EP",
+              "name": "footerBottom",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "7rvw8",
+                  "name": "footerLine",
+                  "width": "fill_container",
+                  "height": 1,
+                  "fill": "#3A302A"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "EggwJ",
+              "name": "footerCopy",
+              "fill": "#8E7F74",
+              "content": "© 2026 菓苑 KAOEN. All rights reserved.",
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 11,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

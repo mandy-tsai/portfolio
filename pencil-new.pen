@@ -1,0 +1,2804 @@
+{
+  "version": "2.8",
+  "children": [
+    {
+      "type": "frame",
+      "id": "6zUHy",
+      "x": 0,
+      "y": 0,
+      "name": "Home",
+      "width": 1440,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "JMp3K",
+          "type": "ref",
+          "ref": "8P1Hm",
+          "width": "fill_container",
+          "name": "navInst"
+        },
+        {
+          "type": "frame",
+          "id": "KdgqC",
+          "name": "Hero",
+          "width": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            60,
+            80,
+            40,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "PczEp",
+              "name": "heroTitle",
+              "width": "fill_container",
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "daFB6",
+                  "fill": "$fg",
+                  "content": "Product",
+                  "fontFamily": "Times New Roman",
+                  "fontSize": 120,
+                  "fontWeight": "700",
+                  "letterSpacing": -2
+                },
+                {
+                  "type": "frame",
+                  "id": "ERjZ6",
+                  "name": "heroRow",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "r22gg",
+                      "name": "avatar",
+                      "width": 120,
+                      "height": 120,
+                      "fill": "#CCCCCC",
+                      "cornerRadius": 4
+                    },
+                    {
+                      "type": "text",
+                      "id": "XYg6u",
+                      "fill": "$fg",
+                      "content": "Designer",
+                      "fontFamily": "Times New Roman",
+                      "fontSize": 120,
+                      "fontWeight": "700",
+                      "letterSpacing": -2
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "cu55w",
+                  "fill": "$fg",
+                  "content": "based in Taiwan",
+                  "fontFamily": "Times New Roman",
+                  "fontSize": 120,
+                  "fontWeight": "700",
+                  "letterSpacing": -2
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "MTzDJ",
+              "name": "heroBottom",
+              "width": "fill_container",
+              "padding": [
+                40,
+                0,
+                0,
+                0
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "cVU8I",
+                  "name": "emailCol",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "VIWMd",
+                      "fill": "$muted",
+                      "content": "EMAIL",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "500",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "HRS8O",
+                      "fill": "$fg",
+                      "content": "mandytsaiyaching@gmail.com",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "zzZef",
+                  "name": "descCol",
+                  "fill": "$fg",
+                  "content": "熱愛設計令人愉悅\n且實用的介面。",
+                  "textAlign": "right",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "CcKlE",
+          "name": "Marquee",
+          "clip": true,
+          "width": "fill_container",
+          "height": 120,
+          "fill": "$bg",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "Q7lbR",
+              "fill": "#1A1A1A10",
+              "content": "SELECTED PROJECTS — SELECTED PROJECTS — SELECTED PROJECTS — SELECTED PROJECTS —",
+              "fontFamily": "Times New Roman",
+              "fontSize": 80,
+              "fontWeight": "normal",
+              "letterSpacing": 2,
+              "fontStyle": "italic"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "GJomA",
+          "name": "Projects Header",
+          "width": "fill_container",
+          "padding": [
+            40,
+            80,
+            20,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "BWPTA",
+              "fill": "$muted",
+              "content": "精選作品 ↓",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "500",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "GXGJc",
+              "fill": "$muted",
+              "content": "查看全部",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "500",
+              "letterSpacing": 2
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "gnVx3",
+          "name": "Projects Grid",
+          "width": "fill_container",
+          "gap": 24,
+          "padding": [
+            0,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "fFE23",
+              "name": "Card BigGo",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "t8b7T",
+                  "name": "thumb1",
+                  "width": "fill_container",
+                  "height": 280,
+                  "fill": "#D4CFC7",
+                  "cornerRadius": 12
+                },
+                {
+                  "type": "frame",
+                  "id": "hPy4o",
+                  "name": "cardInfo1",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "i8raL",
+                      "name": "cardText1",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ODVyv",
+                          "fill": "$fg",
+                          "content": "BigGo Extension",
+                          "fontFamily": "Inter",
+                          "fontSize": 20,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "4Y3wV",
+                          "fill": "$muted",
+                          "content": "BigGo 線上購物比價擴充套件",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "rOxzF",
+                      "name": "tag1",
+                      "cornerRadius": 999,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "$border"
+                      },
+                      "padding": [
+                        4,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "5SQbS",
+                          "fill": "$muted",
+                          "content": "網頁",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "X4m7w",
+              "name": "Card eDreams",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "62FPs",
+                  "name": "thumb2",
+                  "width": "fill_container",
+                  "height": 280,
+                  "fill": "#D4CFC7",
+                  "cornerRadius": 12
+                },
+                {
+                  "type": "frame",
+                  "id": "CptMZ",
+                  "name": "cardInfo2",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "9Ease",
+                      "name": "cardText2",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "gWGsU",
+                          "fill": "$fg",
+                          "content": "eDreams",
+                          "fontFamily": "Inter",
+                          "fontSize": 20,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "JIv79",
+                          "fill": "$muted",
+                          "content": "機票訂購流程設計",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "BqIQ6",
+                      "name": "tag2",
+                      "cornerRadius": 999,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "$border"
+                      },
+                      "padding": [
+                        4,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "QdefZ",
+                          "fill": "$muted",
+                          "content": "行動應用",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Y1FAJ",
+          "name": "Projects Grid 2",
+          "width": "fill_container",
+          "gap": 24,
+          "padding": [
+            24,
+            80,
+            0,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "QIp39",
+              "name": "Card Futura",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "GpgfR",
+                  "name": "thumb3",
+                  "width": "fill_container",
+                  "height": 280,
+                  "fill": "#D4CFC7",
+                  "cornerRadius": 12
+                },
+                {
+                  "type": "frame",
+                  "id": "X7e5p",
+                  "name": "cardInfo3",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "KIbsX",
+                      "name": "cardText3",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "xupil",
+                          "fill": "$fg",
+                          "content": "Futura",
+                          "fontFamily": "Inter",
+                          "fontSize": 20,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "S1HvV",
+                          "fill": "$muted",
+                          "content": "Z 世代線上銀行服務",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "k0qlf",
+                      "name": "tag3",
+                      "cornerRadius": 999,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "$border"
+                      },
+                      "padding": [
+                        4,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "wshtI",
+                          "fill": "$muted",
+                          "content": "行動應用",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "qDwt8",
+              "name": "Card BigGo DS",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "JPyqD",
+                  "name": "thumb4",
+                  "width": "fill_container",
+                  "height": 280,
+                  "fill": "#D4CFC7",
+                  "cornerRadius": 12
+                },
+                {
+                  "type": "frame",
+                  "id": "H8lkr",
+                  "name": "cardInfo4",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "an0iF",
+                      "name": "cardText4",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "CfYVs",
+                          "fill": "$fg",
+                          "content": "BigGo Design System",
+                          "fontFamily": "Inter",
+                          "fontSize": 20,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "BC2YF",
+                          "fill": "$muted",
+                          "content": "BigGo 比價平台設計系統",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bv2T4",
+                      "name": "tag4",
+                      "cornerRadius": 999,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "$border"
+                      },
+                      "padding": [
+                        4,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "3ypMj",
+                          "fill": "$muted",
+                          "content": "設計系統",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "k3Jw1",
+          "name": "Philosophy",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": 80,
+          "children": [
+            {
+              "type": "frame",
+              "id": "8TdJq",
+              "name": "philRow1",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "HmoNR",
+                  "name": "ph1",
+                  "width": "fill_container",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$border"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Co0nb",
+                      "fill": "$muted",
+                      "content": "01",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "vYnMD",
+                      "fill": "$fg",
+                      "content": "以用戶為中心",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "KfpK3",
+                      "fill": "$muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "深入了解用戶需求，確保每個設計決策都以用戶價值為優先。",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "WcyN1",
+                  "name": "ph2",
+                  "width": "fill_container",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$border"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "vIchy",
+                      "fill": "$muted",
+                      "content": "02",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "iUynd",
+                      "fill": "$fg",
+                      "content": "注重細節",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "cSKuh",
+                      "fill": "$muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "從排版到互動，每個細節都精心打磨，追求像素級的完美。",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "C5w4Z",
+                  "name": "ph3",
+                  "width": "fill_container",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$border"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "05Bs4",
+                      "fill": "$muted",
+                      "content": "03",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "hk0Cv",
+                      "fill": "$fg",
+                      "content": "數據驅動",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Er7g6",
+                      "fill": "$muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "用數據驗證設計假設，讓設計決策有據可依。",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "uZUAb",
+              "name": "philRow2",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "dt2y4",
+                  "name": "ph4",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$border"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Kqa1L",
+                      "fill": "$muted",
+                      "content": "04",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "FkGyH",
+                      "fill": "$fg",
+                      "content": "行動導向的方法",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ltKuf",
+                      "fill": "$muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "我優先創建可解構的設計原型，讓團隊能具體感受想法。",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "JP67s",
+                  "name": "ph5",
+                  "width": "fill_container",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$border"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "yLDGE",
+                      "fill": "$muted",
+                      "content": "05",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "RoFKp",
+                      "fill": "$fg",
+                      "content": "系統化思維",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "oseHE",
+                      "fill": "$muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "無論是小功能或完整設計系統，我都以可擴用的組件思維進行設計。",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "J108A",
+                  "name": "ph6",
+                  "width": "fill_container",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$border"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "kinGo",
+                      "fill": "$muted",
+                      "content": "06",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "vE0M2",
+                      "fill": "$fg",
+                      "content": "設計即思考過程",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "sejT0",
+                      "fill": "$muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "我不害怕捨棄方案並探索多元解法。選擇越多，最終的設計就越精準。",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Na1ta",
+          "name": "CTA",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": 80,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "VItuX",
+              "fill": "$muted",
+              "content": "有想法嗎？",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "UmSpk",
+              "fill": "$fg",
+              "content": "Let's work together.",
+              "textAlign": "center",
+              "fontFamily": "Times New Roman",
+              "fontSize": 48,
+              "fontStyle": "italic"
+            },
+            {
+              "type": "frame",
+              "id": "kFOCg",
+              "name": "ctaBtn",
+              "fill": "$fg",
+              "padding": [
+                14,
+                32
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "5XwdJ",
+                  "fill": "$bg",
+                  "content": "與我聯繫",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "uN61I",
+          "name": "Footer",
+          "width": "fill_container",
+          "stroke": {
+            "thickness": {
+              "top": 1
+            },
+            "fill": "$border"
+          },
+          "padding": [
+            40,
+            80
+          ],
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "frame",
+              "id": "pirAt",
+              "name": "footerLeft",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "W6ypO",
+                  "fill": "$muted",
+                  "content": "© 2026",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "VqdYF",
+                  "fill": "$fg",
+                  "content": "打聲招呼！",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "EhLRy",
+                  "fill": "$fg",
+                  "content": "mandytsaiyaching@gmail.com",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "IU4Q1",
+                  "fill": "$muted",
+                  "content": "回到頂部 ↑",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "R0YIG",
+              "name": "footerRight",
+              "layout": "vertical",
+              "gap": 6,
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ufKNN",
+                  "fill": "$fg",
+                  "content": "Behance",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "X3dTY",
+                  "fill": "$fg",
+                  "content": "LinkedIn",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "aelbO",
+                  "fill": "$fg",
+                  "content": "Instagram",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "wNu1s",
+                  "fill": "$fg",
+                  "content": "Dribbble",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "DvbPG",
+      "x": 1540,
+      "y": 0,
+      "name": "Work",
+      "width": 1440,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "YkcJ0",
+          "type": "ref",
+          "ref": "8P1Hm",
+          "width": "fill_container",
+          "name": "workNav"
+        },
+        {
+          "type": "frame",
+          "id": "lv7uU",
+          "name": "Work Title",
+          "width": "fill_container",
+          "padding": [
+            40,
+            80
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "LdYoR",
+              "fill": "#1A1A1A10",
+              "content": "Selected Projects",
+              "fontFamily": "Times New Roman",
+              "fontSize": 96,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "WIFoc",
+          "name": "Work Grid",
+          "width": "fill_container",
+          "gap": 24,
+          "padding": [
+            0,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "QclN7",
+              "name": "wc1",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "8KyZ0",
+                  "name": "wt1",
+                  "width": "fill_container",
+                  "height": 280,
+                  "fill": "#D4CFC7",
+                  "cornerRadius": 12
+                },
+                {
+                  "type": "frame",
+                  "id": "S4GYQ",
+                  "name": "wi1",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "HCMMr",
+                      "name": "wti1",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "G1sio",
+                          "fill": "$fg",
+                          "content": "BigGo Extension",
+                          "fontFamily": "Inter",
+                          "fontSize": 20,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "nkByG",
+                          "fill": "$muted",
+                          "content": "BigGo 線上購物比價擴充套件",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "0dA1B",
+                      "name": "wtag1",
+                      "cornerRadius": 999,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "$border"
+                      },
+                      "padding": [
+                        4,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "EvBb6",
+                          "fill": "$muted",
+                          "content": "網頁",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "5sHgW",
+              "name": "wc2",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Zuiii",
+                  "name": "wt2",
+                  "width": "fill_container",
+                  "height": 280,
+                  "fill": "#D4CFC7",
+                  "cornerRadius": 12
+                },
+                {
+                  "type": "frame",
+                  "id": "nqK6y",
+                  "name": "wi2",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "F9NZ3",
+                      "name": "wti2",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "66dMr",
+                          "fill": "$fg",
+                          "content": "eDreams",
+                          "fontFamily": "Inter",
+                          "fontSize": 20,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Sm41a",
+                          "fill": "$muted",
+                          "content": "機票訂購流程設計",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "FRPVS",
+                      "name": "wtag2",
+                      "cornerRadius": 999,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "$border"
+                      },
+                      "padding": [
+                        4,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "DFVNg",
+                          "fill": "$muted",
+                          "content": "行動應用",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "fKOvw",
+          "name": "Work Grid 2",
+          "width": "fill_container",
+          "gap": 24,
+          "padding": [
+            24,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "k86eB",
+              "name": "wc3",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "yw2Ed",
+                  "name": "wt3",
+                  "width": "fill_container",
+                  "height": 280,
+                  "fill": "#D4CFC7",
+                  "cornerRadius": 12
+                },
+                {
+                  "type": "frame",
+                  "id": "r6Ta0",
+                  "name": "wi3",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "w1cDj",
+                      "name": "wti3",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "W99Uv",
+                          "fill": "$fg",
+                          "content": "Futura",
+                          "fontFamily": "Inter",
+                          "fontSize": 20,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "3p2DX",
+                          "fill": "$muted",
+                          "content": "Z 世代線上銀行服務",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "2Zrcv",
+                      "name": "wtag3",
+                      "cornerRadius": 999,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "$border"
+                      },
+                      "padding": [
+                        4,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "rftoR",
+                          "fill": "$muted",
+                          "content": "行動應用",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "O2lmt",
+              "name": "wc4",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Xc6kA",
+                  "name": "wt4",
+                  "width": "fill_container",
+                  "height": 280,
+                  "fill": "#D4CFC7",
+                  "cornerRadius": 12
+                },
+                {
+                  "type": "frame",
+                  "id": "LhuLM",
+                  "name": "wi4",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "weQ7d",
+                      "name": "wti4",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "sVoUy",
+                          "fill": "$fg",
+                          "content": "BigGo Design System",
+                          "fontFamily": "Inter",
+                          "fontSize": 20,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Vl12s",
+                          "fill": "$muted",
+                          "content": "BigGo 比價平台設計系統",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "R2D9z",
+                      "name": "wtag4",
+                      "cornerRadius": 999,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "$border"
+                      },
+                      "padding": [
+                        4,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "4NVHw",
+                          "fill": "$muted",
+                          "content": "設計系統",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "11Hl2",
+      "x": 3080,
+      "y": 0,
+      "name": "About",
+      "width": 1440,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "R2pRE",
+          "type": "ref",
+          "ref": "8P1Hm",
+          "width": "fill_container",
+          "name": "aboutNav"
+        },
+        {
+          "type": "frame",
+          "id": "nLCR1",
+          "name": "About Hero",
+          "width": "fill_container",
+          "gap": 60,
+          "padding": [
+            60,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "Oz6Br",
+              "name": "aboutLeft",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "5iDbl",
+                  "fill": "$muted",
+                  "content": "關於我",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "500",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "BNTU8",
+                  "fill": "$fg",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "我是 Mandy，一位產品設計師，目前在台灣。",
+                  "fontFamily": "Times New Roman",
+                  "fontSize": 36,
+                  "fontWeight": "normal",
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "5CGmK",
+                  "fill": "$muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "擁有平面設計背景，在巴塞隆納取得互動設計碩士學位後，轉向 UX/UI 設計領域。我相信好的設計不僅要美觀，更要解決真實的用戶問題。",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "z3WYw",
+              "name": "aboutPhoto",
+              "width": 400,
+              "height": 500,
+              "fill": "#D4CFC7",
+              "cornerRadius": 8
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "JPBKV",
+          "name": "Experience",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            40,
+            80,
+            60,
+            80
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "6SByM",
+              "fill": "$muted",
+              "content": "經歷",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "500",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "YiKAE",
+              "name": "expRow1",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": {
+                  "top": 1
+                },
+                "fill": "$border"
+              },
+              "gap": 40,
+              "padding": [
+                16,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "AqQQ7",
+                  "fill": "$muted",
+                  "textGrowth": "fixed-width",
+                  "width": 200,
+                  "content": "2022 – 現在",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "wVyec",
+                  "name": "expInfo1",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "tddk8",
+                      "fill": "$fg",
+                      "content": "BigGo — 產品設計師",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "7wKOR",
+                      "fill": "$muted",
+                      "content": "負責比價平台的 UI/UX 設計，建立設計系統",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "twtVZ",
+              "name": "expRow2",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": {
+                  "top": 1
+                },
+                "fill": "$border"
+              },
+              "gap": 40,
+              "padding": [
+                16,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "VaDEQ",
+                  "fill": "$muted",
+                  "textGrowth": "fixed-width",
+                  "width": 200,
+                  "content": "2021 – 2022",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "Gw9VQ",
+                  "name": "expInfo2",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ojBfg",
+                      "fill": "$fg",
+                      "content": "Freelance — 平面 / UI 設計師",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "BLABi",
+                      "fill": "$muted",
+                      "content": "為多個客戶提供品牌和數位設計服務",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "tk0h6",
+          "name": "Skills",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            40,
+            80,
+            60,
+            80
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "ouJsJ",
+              "fill": "$muted",
+              "content": "技能",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "500",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "qawZL",
+              "name": "skillsRow",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "jcc4C",
+                  "name": "sk1",
+                  "width": "fill_container",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$border"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "QrBrQ",
+                      "fill": "$fg",
+                      "content": "設計工具",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "kXIfF",
+                      "fill": "$muted",
+                      "content": "Figma · Sketch · Adobe XD\nPhotoshop · Illustrator",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "CdPLu",
+                  "name": "sk2",
+                  "width": "fill_container",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$border"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "QEfzS",
+                      "fill": "$fg",
+                      "content": "設計能力",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "QozQr",
+                      "fill": "$muted",
+                      "content": "UI/UX Design · Design System\nPrototyping · User Research",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ONuTI",
+                  "name": "sk3",
+                  "width": "fill_container",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$border"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "sH02p",
+                      "fill": "$fg",
+                      "content": "其他",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xSCHu",
+                      "fill": "$muted",
+                      "content": "HTML/CSS · Framer\nNotion · Jira",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "WH0JL",
+      "x": 4620,
+      "y": 0,
+      "name": "Contact",
+      "width": 1440,
+      "height": 900,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "wGSXu",
+          "type": "ref",
+          "ref": "8P1Hm",
+          "width": "fill_container",
+          "name": "contactNav"
+        },
+        {
+          "type": "frame",
+          "id": "Oc9Xd",
+          "name": "Contact Body",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": 80,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "22zJS",
+              "fill": "$muted",
+              "content": "聯絡",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "500",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "4hUbt",
+              "fill": "$fg",
+              "content": "Let's work together.",
+              "textAlign": "center",
+              "fontFamily": "Times New Roman",
+              "fontSize": 48,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            },
+            {
+              "type": "text",
+              "id": "ySWxe",
+              "fill": "$fg",
+              "content": "mandytsaiyaching@gmail.com",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "BhVkO",
+              "name": "contactLinks",
+              "gap": 32,
+              "padding": [
+                24,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ntQcd",
+                  "fill": "$muted",
+                  "content": "Behance",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "2RVOm",
+                  "fill": "$muted",
+                  "content": "LinkedIn",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "SStil",
+                  "fill": "$muted",
+                  "content": "Instagram",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "0A2i4",
+                  "fill": "$muted",
+                  "content": "Dribbble",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "8P1Hm",
+      "x": -1640,
+      "y": 2057,
+      "name": "Component/Nav",
+      "reusable": true,
+      "width": 1440,
+      "height": 60,
+      "padding": [
+        16,
+        80
+      ],
+      "justifyContent": "space_between",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "grIYD",
+          "name": "navLeft",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "text",
+              "id": "psLia",
+              "fill": "$fg",
+              "content": "目前開放合作",
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "letterSpacing": 1
+            },
+            {
+              "type": "text",
+              "id": "Q3fip",
+              "fill": "$fg",
+              "content": "歡迎聯繫 —",
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "letterSpacing": 1
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "Q8Lgm",
+          "name": "navCenter",
+          "fill": "$fg",
+          "content": "MANDY TSAI",
+          "fontFamily": "Inter",
+          "fontSize": 14,
+          "fontWeight": "500",
+          "letterSpacing": 4
+        },
+        {
+          "type": "frame",
+          "id": "DlOiH",
+          "name": "navRight",
+          "gap": 32,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "mMlyT",
+              "fill": "$fg",
+              "content": "作品集",
+              "fontFamily": "Inter",
+              "fontSize": 13
+            },
+            {
+              "type": "text",
+              "id": "4h3yH",
+              "fill": "$fg",
+              "content": "關於我",
+              "fontFamily": "Inter",
+              "fontSize": 13
+            },
+            {
+              "type": "text",
+              "id": "fk987",
+              "fill": "$fg",
+              "content": "聯絡",
+              "fontFamily": "Inter",
+              "fontSize": 13
+            },
+            {
+              "type": "frame",
+              "id": "KPhC7",
+              "name": "langSep",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "PSLr4",
+                  "fill": "$muted",
+                  "content": "EN / 中",
+                  "fontFamily": "Inter",
+                  "fontSize": 13
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "llQzv",
+      "x": 0,
+      "y": 2680,
+      "name": "BigGo Extension Detail",
+      "width": 1440,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "Qkgay",
+          "type": "ref",
+          "ref": "8P1Hm",
+          "width": "fill_container",
+          "name": "bgNav"
+        },
+        {
+          "type": "frame",
+          "id": "t0kAZ",
+          "name": "Detail Header",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            40,
+            240,
+            16,
+            240
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "snUPG",
+              "name": "bgMeta",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "xo8ct",
+                  "fill": "$muted",
+                  "content": "↗ 網頁 / 2023 / 01",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "yooCc",
+                  "fill": "$muted",
+                  "content": "← 返回",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 1
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "5gUs2",
+              "fill": "$fg",
+              "content": "BigGo Extension",
+              "fontFamily": "Times New Roman",
+              "fontSize": 64,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "KA9gy",
+              "fill": "$muted",
+              "content": "BigGo 線上購物比價擴充套件",
+              "fontFamily": "Times New Roman",
+              "fontSize": 24,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "DJTNC",
+          "name": "Detail Hero",
+          "width": "fill_container",
+          "height": 400,
+          "fill": "#D4CFC7",
+          "padding": [
+            0,
+            240
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "oaGBk",
+          "name": "Info Row",
+          "width": "fill_container",
+          "stroke": {
+            "thickness": {
+              "top": 1,
+              "bottom": 1
+            },
+            "fill": "$border"
+          },
+          "gap": 40,
+          "padding": [
+            24,
+            240
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "Zeu5p",
+              "name": "infoItem1",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "padding": [
+                16,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "2zXxb",
+                  "fill": "$muted",
+                  "content": "角色",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "s4u4t",
+                  "fill": "$fg",
+                  "content": "產品設計師",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ZX1g2",
+              "name": "infoItem2",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "padding": [
+                16,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "JEP0d",
+                  "fill": "$muted",
+                  "content": "時間",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "cb68Y",
+                  "fill": "$fg",
+                  "content": "6 個月",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "74Nx8",
+              "name": "infoItem3",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "padding": [
+                16,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "fsSdD",
+                  "fill": "$muted",
+                  "content": "負責項目",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "qPSzM",
+                  "fill": "$fg",
+                  "content": "UI 設計與 QA 測試",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "YVoZ8",
+              "name": "infoItem4",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "padding": [
+                16,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Ajpn2",
+                  "fill": "$muted",
+                  "content": "工具",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "utUds",
+                  "fill": "$fg",
+                  "content": "Figma",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "e5gbh",
+          "name": "Content",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 14,
+          "padding": [
+            48,
+            240
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "puk6Z",
+              "fill": "$fg",
+              "content": "專案概述",
+              "fontFamily": "Inter",
+              "fontSize": 30,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "sRyQH",
+              "name": "bgCols",
+              "width": "fill_container",
+              "gap": 40,
+              "padding": [
+                8,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "RCGLG",
+                  "name": "bgCol1",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "RlxOE",
+                      "fill": "$fg",
+                      "content": "01 | 目標",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "BKsix",
+                      "fill": "$muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "BigGo Extension 已上線一段時間。本次改版的主要目的是統一新舊功能並優化介面。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "KHb9F",
+                  "name": "bgCol2",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Yw9jv",
+                      "fill": "$fg",
+                      "content": "02 | 角色與交付項目",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mQGHn",
+                      "fill": "$muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "我在此專案中負責 UI 設計，並將最終設計交付給開發團隊。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "u9joV",
+              "fill": "$fg",
+              "content": "什麼是 BigGo Extension？",
+              "fontFamily": "Inter",
+              "fontSize": 22,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "EKHte",
+              "fill": "$muted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "BigGo Extension 在 Google Chrome 及其他瀏覽器上擁有超過 100,000 名用戶。這個擴充套件幫助你在線上購物時找到最便宜的商品，同時提供現金回饋（僅限台灣）。",
+              "lineHeight": 1.6,
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "xt7Gt",
+              "fill": "$fg",
+              "content": "問題",
+              "fontFamily": "Inter",
+              "fontSize": 22,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "QBOOj",
+              "fill": "$muted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "這個擴充套件已上線數年，我們不僅想重新設計 UI，更希望優化所有功能。然而時間有限，設計團隊需要在近 3 個月內完成設計並交付給開發團隊。",
+              "lineHeight": 1.6,
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "G4Hsm",
+              "fill": "$fg",
+              "content": "探索與分析",
+              "fontFamily": "Inter",
+              "fontSize": 30,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "HZleB",
+              "fill": "$fg",
+              "content": "競品分析",
+              "fontFamily": "Inter",
+              "fontSize": 22,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "6Xezf",
+              "fill": "$muted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "我們研究了各式各樣的線上購物擴充套件——Honey、Karma 等等。分析它們並從最佳功能和視覺中汲取靈感。",
+              "lineHeight": 1.6,
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "8qjZG",
+              "fill": "$fg",
+              "content": "結論",
+              "fontFamily": "Inter",
+              "fontSize": 22,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "12esz",
+              "fill": "$muted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "分析和研究完成後，我們發現所有擴充套件基本上都有相同的問題，例如擴充套件的畫面尺寸太大，會在用戶瀏覽網站時造成干擾。",
+              "lineHeight": 1.6,
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "kJDsl",
+              "name": "ins1",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": {
+                  "left": 2
+                },
+                "fill": "$fg"
+              },
+              "gap": 16,
+              "padding": [
+                4,
+                0,
+                4,
+                16
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Zybkq",
+                  "name": "ins1c",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Cjvjx",
+                      "fill": "$fg",
+                      "content": "💡 洞察 1：主彈出視窗：簡潔清晰",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Car4c",
+                      "fill": "$muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "我們簡化了顯示商店資訊或優惠券詳情的彈出畫面，降低干擾，避免打斷購物體驗。只有當用戶點擊 B 圖示時才會出現。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "50fiQ",
+              "name": "ins2",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": {
+                  "left": 2
+                },
+                "fill": "$fg"
+              },
+              "gap": 16,
+              "padding": [
+                4,
+                0,
+                4,
+                16
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "pifPz",
+                  "name": "ins2c",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "kyUcc",
+                      "fill": "$fg",
+                      "content": "💡 洞察 2：歷史價格：可自訂",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "JdpVC",
+                      "fill": "$muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "自動顯示歷史價格資訊，用戶可在設定中更改畫面顯示方式。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "7AH3G",
+              "name": "ins3",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": {
+                  "left": 2
+                },
+                "fill": "$fg"
+              },
+              "gap": 16,
+              "padding": [
+                4,
+                0,
+                4,
+                16
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "LJ7sB",
+                  "name": "ins3c",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "kozbN",
+                      "fill": "$fg",
+                      "content": "💡 洞察 3：相似商品：縮小版面",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "eGlSz",
+                      "fill": "$muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "調整相似商品畫面的大小，同時降低干擾。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "VxPbs",
+              "fill": "$fg",
+              "content": "成果",
+              "fontFamily": "Inter",
+              "fontSize": 30,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "Yqs02",
+              "fill": "$fg",
+              "content": "簡化清晰",
+              "fontFamily": "Inter",
+              "fontSize": 22,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "mYesB",
+              "fill": "$muted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "簡化了視覺佈局，將原有的文字標籤列改為導航列，讓用戶能更清楚、更方便地切換所需資訊。",
+              "lineHeight": 1.6,
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "ASl58",
+              "name": "resultImg1",
+              "width": "fill_container",
+              "height": 300,
+              "fill": "#D4CFC7",
+              "cornerRadius": 8
+            },
+            {
+              "type": "text",
+              "id": "yW02t",
+              "fill": "$fg",
+              "content": "新增搜尋",
+              "fontFamily": "Inter",
+              "fontSize": 22,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "IuIMQ",
+              "fill": "$muted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "用戶可以快速得知搜尋的商店是否提供現金回饋或優惠碼，也可以直接搜尋商品並快速返回 BigGo 商品搜尋結果頁。",
+              "lineHeight": 1.6,
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "EmXz6",
+              "name": "rimg2",
+              "width": "fill_container",
+              "height": 300,
+              "fill": "#D4CFC7",
+              "cornerRadius": 8
+            },
+            {
+              "type": "text",
+              "id": "AOoQb",
+              "fill": "$fg",
+              "content": "歷史價格佈局簡化",
+              "fontFamily": "Inter",
+              "fontSize": 22,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "TRyhq",
+              "fill": "$muted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "將原先較大的佈局畫面比例改為小型且簡潔的可移動介面，並提供用戶設定所需顯示模式的能力，提升整體使用者體驗。",
+              "lineHeight": 1.6,
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "MgHqV",
+              "name": "rimg3",
+              "width": "fill_container",
+              "height": 300,
+              "fill": "#D4CFC7",
+              "cornerRadius": 8
+            },
+            {
+              "type": "text",
+              "id": "VXY9R",
+              "fill": "$fg",
+              "content": "學習與反思",
+              "fontFamily": "Inter",
+              "fontSize": 30,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "weMod",
+              "fill": "$fg",
+              "content": "從錯誤中學習",
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "Fi6VR",
+              "fill": "$muted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "產品首次上線時用戶很快給出負面回饋：我們移除了返回 BigGo 主網站的按鈕……結果發現用戶不僅使用這個擴充套件，還想要快速切換回首頁。當團隊收到這個回饋時，我們立即修正了畫面和功能。",
+              "lineHeight": 1.6,
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "fwzGr",
+              "fill": "$fg",
+              "content": "永遠優先考慮用戶價值",
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "TGubc",
+              "fill": "$muted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "如上所述，我們太專注於簡化整體服務，忽略了真正重要的是用戶想要什麼，這正是造成問題的原因。",
+              "lineHeight": 1.6,
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Uuq0V",
+          "name": "Next Project",
+          "width": "fill_container",
+          "stroke": {
+            "thickness": {
+              "top": 1
+            },
+            "fill": "$border"
+          },
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            40,
+            240
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "D6rvW",
+              "fill": "$muted",
+              "content": "下一個專案",
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "CHynO",
+              "fill": "$fg",
+              "content": "eDreams ↗",
+              "fontFamily": "Times New Roman",
+              "fontSize": 48,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "HYalK",
+      "x": 0,
+      "y": 0,
+      "fill": "#000000",
+      "content": "337315",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "normal"
+    }
+  ],
+  "variables": {
+    "bg": {
+      "type": "color",
+      "value": "#EDE8E0"
+    },
+    "black": {
+      "type": "color",
+      "value": "#000000"
+    },
+    "border": {
+      "type": "color",
+      "value": "#D4CFC7"
+    },
+    "fg": {
+      "type": "color",
+      "value": "#1A1A1A"
+    },
+    "muted": {
+      "type": "color",
+      "value": "#8A8A8A"
+    },
+    "white": {
+      "type": "color",
+      "value": "#FFFFFF"
+    }
+  }
+}
